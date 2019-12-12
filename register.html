@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <title>Team_Evangelists</title>
+  </head>
+  <body>
+      <header class="header">
+          <nav class="navbar navbar-style">
+            <div class="container">
+              <div class="navbar-header">
+                <button
+                  type="button"
+                  class="navbar-toggle"
+                  data-toggle="collapse"
+                  data-target="#micon"
+                >
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                </button>
+                <a href=""
+                  ><img src="/img/logo2.jpg" alt="" class="logo" title="logo"
+                /></a>
+              </div>
+              <div class="collapse navbar-collapse" id="micon">
+                <ul class="nav navbar-nav navbar-right">
+                  <li><a href="index.html">Home</a></li>
+                  <li><a href="/about.html">About</a></li>
+                  <li><a href="#">Courses</a></li>
+                  <li><a href="register.html">Register</a></li>
+                  <li><a href="#">Contact</a></li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+     <header>
+       <h1>Create an Account</h1>
+       <p>
+          Note: You will be emailed a temporary password that will allow you to begin the application. Please provide a valid email address. In some cases you will need to check through your junk email filter or check your junk email folder
+       </p>
+     </header>
+      <section class="container-fluid bg">
+          <section class="row justify-content-center">
+            <section class="col-12 col-sm-6 col-md-3">
+                <form class="form-container mt-3" action="#" method="post" onsubmit="return validation();">
+                    <div class="form-group">
+                      <label for="first name">First Name</label>
+                      <input type="text" class="form-control" id="first_name" aria-describedby="#" placeholder="first name">
+                    </div>
+                    <div class="form-group">
+                      <label for="surname">Surname</label>
+                      <input type="text" class="form-control" id="surname" placeholder="surname">
+                    </div>
+                     <div class="form-group">
+                      <label for="email">Email</label>
+                      <input type="email" class="form-control" id="email" placeholder="email">
+                    </div>
+                    <div class="form-group">
+                      <label for="password">Password</label>
+                      <input type="password" class="form-control" id="password">
+                    </di>
+                    <div class="form-group">
+                      <label for="dob">Date of birth</label>
+                      <input type="date" class="form-control" id=dob aria-describedby="#">
+                  </div>
+                    <div class="form-group form-check">
+                        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                        <label class="form-check-label" for="exampleCheck1">I accept all terms and conditions</label>
+                      </div>
+                    <button type="submit" class="btn btn-primary btn-default">Submit</button>
+                  </form>
+                  <div id="eresult"></div>
+            </section>
+          </section>
+        </section>
+  </body>
+</html>

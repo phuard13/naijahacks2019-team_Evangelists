@@ -32,7 +32,7 @@
                   ><img src="/img/logo2.jpg" alt="" class="logo" title="logo"
                 /></a>
               </div>
-              <div class="collapse navbar-collapse" id="micon">
+              <div class="collapse navbar-collapse" id="#">
                 <ul class="nav navbar-nav navbar-right">
                   <li><a href="index.html">Home</a></li>
                   <li><a href="/about.html">About</a></li>
@@ -43,16 +43,16 @@
               </div>
             </div>
           </nav>
-     <header>
-       <h1>Create an Account</h1>
-       <p>
-          Note: You will be emailed a temporary password that will allow you to begin the application. Please provide a valid email address. In some cases you will need to check through your junk email filter or check your junk email folder
-       </p>
-     </header>
       <section class="container-fluid bg">
           <section class="row justify-content-center">
             <section class="col-12 col-sm-6 col-md-3">
                 <form class="form-container mt-3" action="#" method="post" onsubmit="return validation();">
+                  <div class="form-group">
+                    <h1>Create an Account</h1>
+                    <p>
+                       <strong> Note:</strong> You will be emailed a temporary password that will allow you to begin the application. Please provide a valid email address. In some cases you will need to check through your junk email filter or check your junk email folder
+                    </p>
+                  </div>
                     <div class="form-group">
                       <label for="first name">First Name</label>
                       <input type="text" class="form-control" id="first_name" aria-describedby="#" placeholder="first name">
@@ -83,5 +83,6 @@
             </section>
           </section>
         </section>
+        <script src="app.js"></script>
   </body>
 </html>
